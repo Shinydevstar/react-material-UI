@@ -7,7 +7,7 @@ import AttachFileOutlinedIcon from '@mui/icons-material/AttachFileOutlined';
 import useStyles from '../styles/styles';
 
 export default function ChattingBox() {
-
+    console.log(123123)
     const [ showChattingCard, setShowChattingCard ] = React.useState(false);
     const [ showChattingAvatar, setShowChattingAvatar ] = React.useState(false);
 
